@@ -1,7 +1,7 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --oder-color: #ffffff;
+  --oder-text-color: #ffffff;
   --primary-button-text-color: #ffffff;
   --secondary-button-text-color: #212121;
   --footer-location-color: #ffffff;
@@ -12,10 +12,11 @@
   --team-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
 
-  --primary-accent-color: #2196f3;
+  --primary-button-bg-color: #2196f3;
+  --secondary-button-bg-color: #f5f4fa;
+  --oder-batton-bg-color: #188ce8;
 
-  --primary-button-bg-color: #f5f4fa;
-  --secondary-button-bg-color: #2196f3;
+  --primary-accent-color: #2196f3;
 
   --first-logo-color: #2196f3;
   --second-logo-color: #000000;
@@ -79,7 +80,7 @@ address {
   background-color: var(--oder-bg-color);
 }
 .oder-title {
-  color: var(--oder-color);
+  color: var(--oder-text-color);
 
   font-style: normal;
   font-weight: 900;
@@ -91,10 +92,11 @@ address {
 }
 .oder-button {
   color: var(--primary-button-text-color);
-  background-color: var(--secondary-button-bg-color);
+  background-color: var(--primary-button-bg-color);
 
   font-style: normal;
   font-weight: 700;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -106,7 +108,7 @@ address {
 .oder-button:hover,
 .oder-button:focus {
   color: var(--secondary-button-text-color);
-  background-color: var(--primary-button-bg-color);
+  background-color: var(--oder-batton-bg-color);
 }
 
 /* Main-section-benefit */
@@ -129,6 +131,7 @@ address {
 
   font-style: normal;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -216,7 +219,7 @@ address {
 
 .portfolio-button {
   color: var(--secondary-button-text-color);
-  background-color: var(--primary-button-bg-color);
+  background-color: var(--secondary-button-bg-color);
 
   font-weight: 500;
   font-size: 16px;
@@ -229,7 +232,7 @@ address {
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--primary-button-text-color);
-  background-color: var(--secondary-button-bg-color);
+  background-color: var(--primary-button-bg-color);
 }
 .portfolio-link {
   text-decoration: none;
